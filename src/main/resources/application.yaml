@@ -1,0 +1,7 @@
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      database: ${env_mongodb_database}
+      uri: mongodb://${env_mongodb_username}:${env_mongodb_password}@${env_mongodb_hosts}/
+
